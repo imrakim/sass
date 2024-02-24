@@ -1,0 +1,45 @@
+footer {
+  background-color: aqua;
+  font-family: monospace;
+  color: rgb(238, 40, 5);
+  height: 60px;
+}
+
+* {
+  margin: 0;
+  padding: 10;
+}
+
+.operators {
+  padding: 20px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  background-color: black;
+  color: crimson;
+}
+
+.main {
+  padding: 10px 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.main .logo {
+  font-size: 2rem;
+  color: black;
+  padding-left: 15px;
+}
+.main ul {
+  display: flex;
+}
+.main ul li {
+  list-style: none;
+}
+.main ul li a {
+  text-decoration: none;
+  padding: 15px 15px;
+  font-size: 1.3rem;
+}
+.main ul li .btn {
+  background-color: aqua;
+  border-radius: 12px;
+}/*# sourceMappingURL=home.css.map */

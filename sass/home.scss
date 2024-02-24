@@ -1,0 +1,57 @@
+// header section start
+@forward "partial";
+// css reset
+@forward "reset";
+
+// testing operators
+
+.operators{
+    padding: 20px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+    background-color: black;
+    // padding-top: 120px+40px;
+    color: crimson;
+}
+
+//navbar stytle
+
+
+.main{
+    padding: 10px 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .logo{
+        font-size: 2rem;
+        color: black;
+        padding-left: 15px;
+    }
+        ul{
+            display: flex;
+            li{
+                // text-align: justify;
+                list-style: none;
+                a{
+                    text-decoration: none;
+                  padding: 15px 15px;
+                  
+                  font-size: 1.3rem;
+                    
+                }
+                .btn{
+                    background-color: aqua;
+                    border-radius: 12px;
+                }
+            }
+        }
+    }
+
+
+//operators testing
+
+// p{
+//     padding: 20px;
+//     padding-top: 40px + 40px;
+//     padding-bottom: 230px + 230px;
+//     font-size: 1.5rem + 1.5rem;
+// }
